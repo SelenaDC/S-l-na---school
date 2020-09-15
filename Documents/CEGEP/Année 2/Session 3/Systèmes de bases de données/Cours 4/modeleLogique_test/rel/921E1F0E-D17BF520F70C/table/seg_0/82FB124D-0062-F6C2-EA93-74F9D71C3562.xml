@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82FB124D-0062-F6C2-EA93-74F9D71C3562" name="Étudiant">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:57:03 UTC</createdTime>
+<generatorID>20F63582-DED1-070E-B8DE-0D2425EA9493</generatorID>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_etudiant" id="90822314-F337-1FC2-E780-251D63D82D65">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:57:03 UTC</createdTime>
+<generatorID>90770782-27D7-7FD7-E2B6-246D0A754BB5</generatorID>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="D1101FA8-DDA6-D4FA-98FD-18F01312EB20">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:57:03 UTC</createdTime>
+<generatorID>C74B8AB9-C653-9105-A02B-9BBA7CB20B54</generatorID>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prenom" id="1BD5F4DE-3B2F-E30F-3530-CAC560773E84">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:57:03 UTC</createdTime>
+<generatorID>3C319FCB-8AA7-3CF3-4AB1-97AAB77C10DA</generatorID>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresse" id="80E43B1A-E321-268E-9F25-9B319724FE4E">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:57:03 UTC</createdTime>
+<generatorID>692FEDB8-4D21-3294-044D-F49F6D051618</generatorID>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Programme_id_programme" id="C6590481-5BB7-90A3-6D8A-DB7DFEADF772">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:57:03 UTC</createdTime>
+<generatorID>071363EC-020A-983A-314F-00CE104E353B</generatorID>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1C03849-B1CC-D8FA-F09A-9D9CE92A668F" referredColumn="07501DD2-2BED-E387-4F5E-1E08528C0ADD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="630D1472-A6E1-4FF1-413C-0D740312B36D" name="Étudiant_PK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:57:03 UTC</createdTime>
+<generatorID>63D2746C-0459-8652-DA04-0BEF02B9C2DF</generatorID>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90822314-F337-1FC2-E780-251D63D82D65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22CE876C-7594-FB0A-0948-A4131CDE624B" name="Étudiant_Programme_FK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:57:03 UTC</createdTime>
+<generatorID>C96EE73C-C1CD-34E5-8DCB-87A439EFAB61</generatorID>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6590481-5BB7-90A3-6D8A-DB7DFEADF772"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

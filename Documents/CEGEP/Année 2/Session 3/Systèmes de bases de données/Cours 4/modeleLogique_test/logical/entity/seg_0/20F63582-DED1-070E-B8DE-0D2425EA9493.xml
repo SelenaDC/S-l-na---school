@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20F63582-DED1-070E-B8DE-0D2425EA9493" name="Étudiant">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:29:14 UTC</createdTime>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<engineerTo>
+<item key="921E1F0E-20CE-ACF0-E0EA-D17BF520F70C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_etudiant" id="90770782-27D7-7FD7-E2B6-246D0A754BB5">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:33:01 UTC</createdTime>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<engineerTo>
+<item key="921E1F0E-20CE-ACF0-E0EA-D17BF520F70C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="C74B8AB9-C653-9105-A02B-9BBA7CB20B54">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:33:26 UTC</createdTime>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<engineerTo>
+<item key="921E1F0E-20CE-ACF0-E0EA-D17BF520F70C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prenom" id="3C319FCB-8AA7-3CF3-4AB1-97AAB77C10DA">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:34:17 UTC</createdTime>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<engineerTo>
+<item key="921E1F0E-20CE-ACF0-E0EA-D17BF520F70C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresse" id="692FEDB8-4D21-3294-044D-F49F6D051618">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:43:21 UTC</createdTime>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<engineerTo>
+<item key="921E1F0E-20CE-ACF0-E0EA-D17BF520F70C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_programme" id="071363EC-020A-983A-314F-00CE104E353B">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:50:03 UTC</createdTime>
+<generatorID>C96EE73C-C1CD-34E5-8DCB-87A439EFAB61</generatorID>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<engineerTo>
+<item key="921E1F0E-20CE-ACF0-E0EA-D17BF520F70C" value="true"/>
+</engineerTo>
+<referedAttribute>76A264CF-DCBC-7710-66DA-A48A2516B2AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="63D2746C-0459-8652-DA04-0BEF02B9C2DF" name="Étudiant PK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:33:51 UTC</createdTime>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="921E1F0E-20CE-ACF0-E0EA-D17BF520F70C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90770782-27D7-7FD7-E2B6-246D0A754BB5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

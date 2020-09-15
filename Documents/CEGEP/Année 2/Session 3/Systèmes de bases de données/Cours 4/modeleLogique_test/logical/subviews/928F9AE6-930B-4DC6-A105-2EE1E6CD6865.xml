@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="928F9AE6-930B-4DC6-A105-2EE1E6CD6865">
+<createdBy>Séléna - school</createdBy>
+<modifiedBy>Séléna - school</modifiedBy>
+<createdTime>2020-09-15 17:28:51 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>true</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="20F63582-DED1-070E-B8DE-0D2425EA9493" otype="Entity" vid="FC088D26-30CB-70E3-373D-A520910ED01B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="381" y="181" width="139" height="130"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B9EFC1F1-F63D-C3DF-57E6-E30F2646F6CE" otype="Entity" vid="3B60FC1D-01FA-0AD1-107C-31999DB8E4F0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="807" y="191" width="123" height="121"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="C96EE73C-C1CD-34E5-8DCB-87A439EFAB61" otype="Relation" vid_source="3B60FC1D-01FA-0AD1-107C-31999DB8E4F0" vid_target="FC088D26-30CB-70E3-373D-A520910ED01B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<sourceLabel class="oracle.dbtools.crest.model.design.Label">
+<site>0</site>
+<labelBounds x="738" y="221" width="63" height="30"/>
+<noBackgroundColor>true</noBackgroundColor>
+<noForegroundColor>true</noForegroundColor>
+</sourceLabel>
+<targetLabel class="oracle.dbtools.crest.model.design.Label">
+<site>2</site>
+<labelBounds x="530" y="254" width="54" height="30"/>
+<noBackgroundColor>true</noBackgroundColor>
+<noForegroundColor>true</noForegroundColor>
+</targetLabel>
+<points>
+<point x="807" y="251"/>
+<point x="520" y="251"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

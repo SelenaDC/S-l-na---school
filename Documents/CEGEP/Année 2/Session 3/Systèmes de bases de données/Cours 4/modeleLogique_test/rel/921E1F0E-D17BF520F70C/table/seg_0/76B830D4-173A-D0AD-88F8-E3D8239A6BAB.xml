@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76B830D4-173A-D0AD-88F8-E3D8239A6BAB" name="Programme">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:57:03 UTC</createdTime>
+<generatorID>B9EFC1F1-F63D-C3DF-57E6-E30F2646F6CE</generatorID>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_programme" id="07501DD2-2BED-E387-4F5E-1E08528C0ADD">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:57:03 UTC</createdTime>
+<generatorID>76A264CF-DCBC-7710-66DA-A48A2516B2AC</generatorID>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="D4A14D74-52F9-C07E-60F5-6F0BC96C8944">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:57:03 UTC</createdTime>
+<generatorID>190AF5E8-027F-1A6D-8BD5-A66648EF1462</generatorID>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="code" id="32B5B53A-3AAE-8794-A0B7-308F4FC5CE79">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:57:03 UTC</createdTime>
+<generatorID>BA8289CB-591A-A7FF-8BCD-348389E7176A</generatorID>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4F214DA-C7A8-CC7B-B07F-A2CF0023CC85" name="Programme_PK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:57:03 UTC</createdTime>
+<generatorID>9DA7A298-CE58-F319-A40E-911504E33955</generatorID>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07501DD2-2BED-E387-4F5E-1E08528C0ADD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

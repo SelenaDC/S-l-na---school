@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9EFC1F1-F63D-C3DF-57E6-E30F2646F6CE" name="Programme">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:29:32 UTC</createdTime>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<engineerTo>
+<item key="921E1F0E-20CE-ACF0-E0EA-D17BF520F70C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_programme" id="76A264CF-DCBC-7710-66DA-A48A2516B2AC">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:48:53 UTC</createdTime>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<engineerTo>
+<item key="921E1F0E-20CE-ACF0-E0EA-D17BF520F70C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="190AF5E8-027F-1A6D-8BD5-A66648EF1462">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:48:53 UTC</createdTime>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<engineerTo>
+<item key="921E1F0E-20CE-ACF0-E0EA-D17BF520F70C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="code" id="BA8289CB-591A-A7FF-8BCD-348389E7176A">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:49:22 UTC</createdTime>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<engineerTo>
+<item key="921E1F0E-20CE-ACF0-E0EA-D17BF520F70C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9DA7A298-CE58-F319-A40E-911504E33955" name="Programme PK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-09-15 17:49:05 UTC</createdTime>
+<ownerDesignName>modeleLogique_test</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="921E1F0E-20CE-ACF0-E0EA-D17BF520F70C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>76A264CF-DCBC-7710-66DA-A48A2516B2AC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
