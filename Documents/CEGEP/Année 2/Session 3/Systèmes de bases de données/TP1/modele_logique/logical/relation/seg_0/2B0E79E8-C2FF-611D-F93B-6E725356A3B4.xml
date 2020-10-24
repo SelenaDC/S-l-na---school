@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="employe_train" directorySegmentName="seg_0" id="2B0E79E8-C2FF-611D-F93B-6E725356A3B4">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:39:36 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<sourcePk>8198F165-7E87-908F-C628-38887B809165</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>conduire</nameOnSource>
+<nameOnTarget>être conduit</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E821FBDD-92B7-8ECF-0CA2-9CF59CB4DE41</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>189305AD-9BCB-A21A-312F-D53D48349DC0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

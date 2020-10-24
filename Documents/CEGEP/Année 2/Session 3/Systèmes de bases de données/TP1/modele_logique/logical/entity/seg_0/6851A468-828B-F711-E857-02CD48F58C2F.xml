@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6851A468-828B-F711-E857-02CD48F58C2F" name="etape">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:18:59 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_etape" id="D0D87854-6669-B4D6-780B-10DE344D8986">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:19:07 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nb_etape" id="CC158F8A-5BA8-4962-8884-DD569DE4592A">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:19:24 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="escale" id="23C7D1C6-7624-6BF4-4245-E85EF6C99A4C">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:19:37 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="8193F5D6-76C9-13CB-E41A-54FFD37FEA21">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:20:09 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="heure" id="429E4903-343F-6643-F59D-406BCE953690">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:20:25 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="origine" id="B744532E-6ED9-D711-A846-9D6E6B8EF1C5">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:20:52 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="destination" id="BC111AA5-46BC-496B-412D-D2DC7FFCB84F">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:21:09 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_voyage" id="557A158C-30DC-A119-E51C-2D221A4C8BD7">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:36:20 UTC</createdTime>
+<generatorID>B21706D4-DBFF-4515-20B1-57A4A90B76D6</generatorID>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<referedAttribute>BEE826EE-6720-E9BA-DB07-507ACD04806A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3577338A-F097-D1BD-6742-5828971AA0FE" name="etape PK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:19:23 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D0D87854-6669-B4D6-780B-10DE344D8986</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

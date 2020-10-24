@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7510419E-5AC7-1A7F-A439-9BE880581C9B" name="province">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:22:13 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_province" id="BCD455B0-D750-5638-DEB0-DF3F3A9B5A65">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:22:21 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="B8E4DBF0-7103-C6E6-E546-39ACCBAA3D1F">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:22:30 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pays" id="48D4B2C4-30E5-32EA-0394-DDADA1918DDD">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:22:43 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pays" id="102643F8-BCB9-35CB-37B8-2172DC40F7B6">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:45:52 UTC</createdTime>
+<generatorID>97D45676-B478-1500-B39D-8A56E0491A1B</generatorID>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<referedAttribute>D80AAE9F-880C-C36F-97E7-8C2B74BF54CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A798002-3E10-A342-7FB6-D997234C82A6" name="province PK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:22:28 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BCD455B0-D750-5638-DEB0-DF3F3A9B5A65</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

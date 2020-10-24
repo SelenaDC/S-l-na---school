@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modele_logique" id="2C168E0D-CC0C-7D79-3268-A30A971892A0" version="3.5">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:02:42 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2C168E0D-CC0C-7D79-3268-A30A971892A0</designId>
+</OSDM_Design>

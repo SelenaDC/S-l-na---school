@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="189305AD-9BCB-A21A-312F-D53D48349DC0" name="train">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:03:03 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_train" id="2CE9B03E-8702-9B21-40A2-7CF51C255C1B">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:03:34 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type_train" id="CF5A12EE-5463-61CD-ECE5-F2CB1E590C09">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:04:01 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vitesse" id="BE4D8A76-5FA2-413C-3053-EF2AE4DB03D2">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:04:50 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nb_wagon" id="6A792D15-AE70-3CDA-3C6D-B51B3357A142">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:05:11 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nb_train" id="5A25ADDB-BE69-4FE1-B8DE-B79FC31B25B3">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:05:27 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_employe" id="4504D77D-2399-26EC-B4E8-963FB29F4FDD">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:39:36 UTC</createdTime>
+<generatorID>2B0E79E8-C2FF-611D-F93B-6E725356A3B4</generatorID>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<referedAttribute>1BC9FD63-5C23-9F51-DD59-F3F91E63BEDD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1CE47A2-3664-5F0C-2C86-A6BC552CD95F" name="train PK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:03:54 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2CE9B03E-8702-9B21-40A2-7CF51C255C1B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

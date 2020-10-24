@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pays_province" directorySegmentName="seg_0" id="97D45676-B478-1500-B39D-8A56E0491A1B">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:45:52 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<sourcePk>83958D9C-7EE5-9413-D1D7-4B78C36579E1</sourcePk>
+<targetPk>4A798002-3E10-A342-7FB6-D997234C82A6</targetPk>
+<identifying>false</identifying>
+<nameOnSource>comprendre</nameOnSource>
+<nameOnTarget>se trouver dans</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4B3D0F84-8EC7-2F3C-3F0C-0D0B6380E8AE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7510419E-5AC7-1A7F-A439-9BE880581C9B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

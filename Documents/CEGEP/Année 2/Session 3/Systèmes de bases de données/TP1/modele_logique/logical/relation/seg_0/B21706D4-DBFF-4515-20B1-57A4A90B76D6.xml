@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="voyage_etape" directorySegmentName="seg_0" id="B21706D4-DBFF-4515-20B1-57A4A90B76D6">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:36:20 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<sourcePk>A7763344-A3AE-6056-33B5-E84C4E199409</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>contenir</nameOnSource>
+<nameOnTarget>constituer</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ECEBFD22-3293-7807-47BD-7464DEF34509</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6851A468-828B-F711-E857-02CD48F58C2F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

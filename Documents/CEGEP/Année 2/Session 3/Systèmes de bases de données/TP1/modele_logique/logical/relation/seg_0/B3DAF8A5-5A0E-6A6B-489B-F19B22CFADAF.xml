@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="client_valise" directorySegmentName="seg_0" id="B3DAF8A5-5A0E-6A6B-489B-F19B22CFADAF">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:29:09 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<sourcePk>C681FE55-E4B5-D159-2E55-C983C3A29CF6</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>posséder</nameOnSource>
+<nameOnTarget>être possédée</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9E012FAD-B335-2B1D-2423-D5EA22097524</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C27585CA-5FA7-0B14-282D-FCD7CC4F62D4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

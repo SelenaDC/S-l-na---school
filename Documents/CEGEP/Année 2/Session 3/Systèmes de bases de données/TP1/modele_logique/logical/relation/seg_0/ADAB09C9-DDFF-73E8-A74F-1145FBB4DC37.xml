@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="gare_voyage" directorySegmentName="seg_0" id="ADAB09C9-DDFF-73E8-A74F-1145FBB4DC37">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:43:19 UTC</createdTime>
+<ownerDesignName>modele_logique</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<sourcePk>DF1648C5-72D3-02DC-C5B9-5A1744A1676E</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>accueillir</nameOnSource>
+<nameOnTarget>arrêter à</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BAD8A691-5ED9-B353-036E-71283BB7D705</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ECEBFD22-3293-7807-47BD-7464DEF34509</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
