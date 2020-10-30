@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10C227CB-BD09-7E5A-440C-FE7291683773" schemaObject="2D8690CD-365B-4347-A4D9-FECC6E426E6C" name="ETAPE">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>ETAPE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:23 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ETAPE" id="28875CD9-170A-00BF-3288-82AD2D71C532">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>ETAPE</sourceObjSchema>
+<sourceObjName>ID_ETAPE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NB_ETAPE" id="61EFAEA1-3605-1D1D-A4EA-C8DA673C0BD7">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>ETAPE</sourceObjSchema>
+<sourceObjName>NB_ETAPE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESCALE" id="9AA96017-D871-CE53-49E5-341345B39BF9">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>ETAPE</sourceObjSchema>
+<sourceObjName>ESCALE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="BD49E460-8379-0E37-9A1F-536B3ED8B2F7">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>ETAPE</sourceObjSchema>
+<sourceObjName>date</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HEURE" id="6731B076-94E9-0802-A317-5DCDFDC01A2E">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>ETAPE</sourceObjSchema>
+<sourceObjName>HEURE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORIGINE" id="1EF22206-4AF9-FB8D-AE77-A3320A2DFC69">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>ETAPE</sourceObjSchema>
+<sourceObjName>ORIGINE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESTINATION" id="D123CBFA-414A-46F7-187B-C0012BA4A966">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>ETAPE</sourceObjSchema>
+<sourceObjName>DESTINATION</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOYAGE_ID_VOYAGE" id="1FF3685A-2A18-D0DB-724A-DAA9E7C5EC09">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>ETAPE</sourceObjSchema>
+<sourceObjName>VOYAGE_ID_VOYAGE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D719E8E-D22B-B4F3-5952-94358BF73AF5" referredColumn="1B4A602E-8BC8-9985-75FA-9A49EFD915C3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28E8FE28-C96B-F5DA-438B-45DB19B70A0F" name="ETAPE_PK">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>ETAPE_PK</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:50 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28875CD9-170A-00BF-3288-82AD2D71C532"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26236DE2-7C71-18FB-0E6F-5B5C92E41CFB" schemaObject="2D8690CD-365B-4347-A4D9-FECC6E426E6C" name="ETAPE_PK">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>ETAPE_PK</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:41 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28875CD9-170A-00BF-3288-82AD2D71C532"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF339B5C-A3D7-51D4-C054-2D6C821E7ABC" name="ETAPE_VOYAGE_FK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:51 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FF3685A-2A18-D0DB-724A-DAA9E7C5EC09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

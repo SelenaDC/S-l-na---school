@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4364A0A-3DAD-8267-EBDD-0BF59C2E33A4" schemaObject="2D8690CD-365B-4347-A4D9-FECC6E426E6C" name="CLIENT_VOYAGE">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>CLIENT_VOYAGE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:23 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CLIENT_ID_CLIENT" id="89550AD9-AE3C-A862-EA9D-F4CD5A24AA5F">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>CLIENT_VOYAGE</sourceObjSchema>
+<sourceObjName>CLIENT_ID_CLIENT</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B9F70A1-CA33-E83D-9C5C-2C1C287D9275" referredColumn="8400D7E9-33E8-D6F4-3A64-2A13661464C6"/>
+</associations>
+</Column>
+<Column name="VOYAGE_ID_VOYAGE" id="746A23E5-6D8D-C8FB-2AF1-D2B1DCC5EF55">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>CLIENT_VOYAGE</sourceObjSchema>
+<sourceObjName>VOYAGE_ID_VOYAGE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="686F68D2-6576-1E1B-7102-981389625E7C" referredColumn="1B4A602E-8BC8-9985-75FA-9A49EFD915C3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1275DDF-46DA-0B29-5A77-AFA4450DF35B" name="CLIENT_VOYAGE_PK">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>CLIENT_VOYAGE_PK</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:50 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89550AD9-AE3C-A862-EA9D-F4CD5A24AA5F"/>
+<colUsage columnID="746A23E5-6D8D-C8FB-2AF1-D2B1DCC5EF55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38EB7685-5F5D-54D3-EF75-2957274F8911" schemaObject="2D8690CD-365B-4347-A4D9-FECC6E426E6C" name="CLIENT_VOYAGE_PK">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>CLIENT_VOYAGE_PK</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:41 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89550AD9-AE3C-A862-EA9D-F4CD5A24AA5F"/>
+<colUsage columnID="746A23E5-6D8D-C8FB-2AF1-D2B1DCC5EF55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1D310C8-D4A2-8222-A80B-FFBFF3336AB5" name="CLIENT_VOYAGE_CLIENT_FK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:51 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89550AD9-AE3C-A862-EA9D-F4CD5A24AA5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="060FAF90-63C5-63C5-114A-CBAE3D4A10F6" name="CLIENT_VOYAGE_VOYAGE_FK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:51 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="746A23E5-6D8D-C8FB-2AF1-D2B1DCC5EF55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

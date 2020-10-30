@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1D50D2DF-D950-5180-09D9-389262201661" containerWithKeyObject="1DBA9CA6-9BBE-3082-5B41-95EC9FE5D7DC" localFKIndex="532D25DB-7E3C-F70F-967A-C6FB3662833F" name="VOYAGE_GARE_FK">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>VOYAGE_GARE_FK</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:51 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<referredTableLongName>TRANSPORT_CN.GARE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>401DE82D-CF77-2C5F-E918-73950632EBE4</referredTableID>
+<keyObject>6F8A37C9-7519-FC94-439D-54A0B208DAF2</keyObject>
+<referredKeyID>6F8A37C9-7519-FC94-439D-54A0B208DAF2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_GARE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

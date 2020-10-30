@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A38D4612-7A38-8634-FE8A-E06EE2336DD8" containerWithKeyObject="B7632A13-E6E8-B38E-3498-CAFB2C7F36C6" localFKIndex="83661DF4-494D-5DE3-DCD8-8CD76EFC33CD" name="VALISE_CLIENT_FK">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>VALISE_CLIENT_FK</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:51 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<referredTableLongName>TRANSPORT_CN.CLIENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>62DC31FA-086D-CC11-6680-DFBA5EC8EB06</referredTableID>
+<keyObject>1342D732-21E5-11D2-7D80-DEC7EF70FD00</keyObject>
+<referredKeyID>1342D732-21E5-11D2-7D80-DEC7EF70FD00</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CLIENT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

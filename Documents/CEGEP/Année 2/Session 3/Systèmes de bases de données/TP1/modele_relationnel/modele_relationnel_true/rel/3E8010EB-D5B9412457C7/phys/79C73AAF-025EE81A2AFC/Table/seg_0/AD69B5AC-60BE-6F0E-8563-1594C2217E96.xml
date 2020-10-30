@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TRAIN" directorySegmentName="seg_0" id="AD69B5AC-60BE-6F0E-8563-1594C2217E96">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:23 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<schemaObject>2D8690CD-365B-4347-A4D9-FECC6E426E6C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C64038B3-61F5-BE35-E640-F0072A80113D</segment>
+<tableSpace>D6268498-DDD3-5F82-3D07-F7C421599119</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NB_TRAIN" id="016DCD51-7E83-4F18-2968-3C1839D41B13">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TYPE_TRAIN" id="45D467D7-9AD1-E829-D931-B28198C3D9C5">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VITESSE" id="894322A8-14DF-5965-07B0-F78F7D437F25">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TRAIN" id="98C65144-DBC9-C778-7886-75B92010E398">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPLOYE_ID_EMPLOYE" id="BE4AFA2F-645C-FDCE-B3B7-ACF5F05381BB">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NB_WAGON" id="D5BFF66E-8A8E-FFFF-E077-711CA97DD534">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TRAIN__IDX" id="2ED42329-E8D9-3417-8A40-A226CDF0BA74">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:41 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<schemaObject>2D8690CD-365B-4347-A4D9-FECC6E426E6C</schemaObject>
+<segment>C4395840-0319-8E2A-DDEA-E708F447FAB3</segment>
+<tableSpace>D6268498-DDD3-5F82-3D07-F7C421599119</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TRAIN_PK" id="58E2C225-9FC8-26EF-6639-B34725DFCBEF">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:41 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<schemaObject>2D8690CD-365B-4347-A4D9-FECC6E426E6C</schemaObject>
+<segment>C4395840-0319-8E2A-DDEA-E708F447FAB3</segment>
+<tableSpace>D6268498-DDD3-5F82-3D07-F7C421599119</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TRAIN_EMPLOYE_FK" id="0F908325-664D-0CFD-68DE-585CDEC25899">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:51 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TRAIN_PK" id="71D44F74-A4AE-0AE8-7DDB-416C5286C579">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:50 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<segment>C4395840-0319-8E2A-DDEA-E708F447FAB3</segment>
+<tableSpace>D6268498-DDD3-5F82-3D07-F7C421599119</tableSpace>
+<existingIndex>58E2C225-9FC8-26EF-6639-B34725DFCBEF</existingIndex>
+<indexSegment>C4395840-0319-8E2A-DDEA-E708F447FAB3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

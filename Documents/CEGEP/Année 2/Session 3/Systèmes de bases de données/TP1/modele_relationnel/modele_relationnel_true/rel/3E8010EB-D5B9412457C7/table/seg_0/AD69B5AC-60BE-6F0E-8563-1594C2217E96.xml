@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD69B5AC-60BE-6F0E-8563-1594C2217E96" schemaObject="2D8690CD-365B-4347-A4D9-FECC6E426E6C" name="TRAIN">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>TRAIN</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:23 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TRAIN" id="98C65144-DBC9-C778-7886-75B92010E398">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRAIN</sourceObjSchema>
+<sourceObjName>ID_TRAIN</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_TRAIN" id="45D467D7-9AD1-E829-D931-B28198C3D9C5">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRAIN</sourceObjSchema>
+<sourceObjName>TYPE_TRAIN</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VITESSE" id="894322A8-14DF-5965-07B0-F78F7D437F25">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRAIN</sourceObjSchema>
+<sourceObjName>VITESSE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NB_WAGON" id="D5BFF66E-8A8E-FFFF-E077-711CA97DD534">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRAIN</sourceObjSchema>
+<sourceObjName>NB_WAGON</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NB_TRAIN" id="016DCD51-7E83-4F18-2968-3C1839D41B13">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRAIN</sourceObjSchema>
+<sourceObjName>NB_TRAIN</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYE_ID_EMPLOYE" id="BE4AFA2F-645C-FDCE-B3B7-ACF5F05381BB">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRAIN</sourceObjSchema>
+<sourceObjName>EMPLOYE_ID_EMPLOYE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04CE1925-7657-C35F-8BEE-568049035741" referredColumn="D9C2619A-FD2A-10DE-030E-5BB13998AABC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71D44F74-A4AE-0AE8-7DDB-416C5286C579" name="TRAIN_PK">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>TRAIN_PK</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:50 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98C65144-DBC9-C778-7886-75B92010E398"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2ED42329-E8D9-3417-8A40-A226CDF0BA74" schemaObject="2D8690CD-365B-4347-A4D9-FECC6E426E6C" name="TRAIN__IDX">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>TRAIN__IDX</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:41 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE4AFA2F-645C-FDCE-B3B7-ACF5F05381BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58E2C225-9FC8-26EF-6639-B34725DFCBEF" schemaObject="2D8690CD-365B-4347-A4D9-FECC6E426E6C" name="TRAIN_PK">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>TRAIN_PK</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:41 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98C65144-DBC9-C778-7886-75B92010E398"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F908325-664D-0CFD-68DE-585CDEC25899" name="TRAIN_EMPLOYE_FK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:51 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE4AFA2F-645C-FDCE-B3B7-ACF5F05381BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

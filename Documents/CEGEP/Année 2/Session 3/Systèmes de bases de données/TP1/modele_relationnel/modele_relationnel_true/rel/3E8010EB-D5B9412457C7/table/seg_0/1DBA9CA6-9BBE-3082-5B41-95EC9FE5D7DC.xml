@@ -1,0 +1,204 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DBA9CA6-9BBE-3082-5B41-95EC9FE5D7DC" schemaObject="2D8690CD-365B-4347-A4D9-FECC6E426E6C" name="VOYAGE">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>VOYAGE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:23 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VOYAGE" id="1B4A602E-8BC8-9985-75FA-9A49EFD915C3">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>VOYAGE</sourceObjSchema>
+<sourceObjName>ID_VOYAGE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORIGINE" id="61F6082F-6669-2599-3281-C8DE39733F38">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>VOYAGE</sourceObjSchema>
+<sourceObjName>ORIGINE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESTINATION" id="361FDD29-D23D-4E3C-38B2-493676E97A0B">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>VOYAGE</sourceObjSchema>
+<sourceObjName>DESTINATION</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_DEPART" id="3224202F-83A1-6F0A-C41D-4FEF24DA4F22">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>VOYAGE</sourceObjSchema>
+<sourceObjName>DATE_DEPART</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUT" id="FF24C8E1-447E-4FF2-3ABE-CB4F2845B704">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>VOYAGE</sourceObjSchema>
+<sourceObjName>COUT</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_VOYAGE" id="DA104DD5-DF34-2EBF-0039-FE378BB6158C">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>VOYAGE</sourceObjSchema>
+<sourceObjName>TYPE_VOYAGE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEMPS" id="6B479619-832F-76F1-0925-4A0CB3054F36">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>VOYAGE</sourceObjSchema>
+<sourceObjName>TEMPS</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUT" id="4D7A951E-B4E4-EB4A-F664-7313FDA0ACDF">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>VOYAGE</sourceObjSchema>
+<sourceObjName>STATUT</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYE_ID_EMPLOYE" id="8A43263A-202E-6B9E-AACA-8D6E2B77FB3D">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>VOYAGE</sourceObjSchema>
+<sourceObjName>EMPLOYE_ID_EMPLOYE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33A70A1A-295B-CD31-0851-CE39508563EC" referredColumn="D9C2619A-FD2A-10DE-030E-5BB13998AABC"/>
+</associations>
+</Column>
+<Column name="GARE_ID_GARE" id="2D67789C-B194-2DEF-DA5F-032A3A153B61">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>VOYAGE</sourceObjSchema>
+<sourceObjName>GARE_ID_GARE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D50D2DF-D950-5180-09D9-389262201661" referredColumn="F1ADED98-350D-FCDB-F37E-5D609F178435"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B9F21DE-115E-D84D-0226-72BB94437838" name="VOYAGE_PK">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>VOYAGE_PK</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:50 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B4A602E-8BC8-9985-75FA-9A49EFD915C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1905529-9A29-EF3F-6B29-70C40A9E154B" schemaObject="2D8690CD-365B-4347-A4D9-FECC6E426E6C" name="VOYAGE_PK">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>VOYAGE_PK</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:41 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B4A602E-8BC8-9985-75FA-9A49EFD915C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="458786FD-C868-535A-6AC7-E894C684E429" name="VOYAGE_EMPLOYE_FK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:51 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A43263A-202E-6B9E-AACA-8D6E2B77FB3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="532D25DB-7E3C-F70F-967A-C6FB3662833F" name="VOYAGE_GARE_FK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:51 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D67789C-B194-2DEF-DA5F-032A3A153B61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
