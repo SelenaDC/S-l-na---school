@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="employe_voyage" directorySegmentName="seg_0" id="32AB12B4-A718-6FD5-DFE8-8C2DAF4A89E3">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:34:40 UTC</createdTime>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<sourcePk>8198F165-7E87-908F-C628-38887B809165</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>effectuer</nameOnSource>
+<nameOnTarget>être effectué</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E821FBDD-92B7-8ECF-0CA2-9CF59CB4DE41</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ECEBFD22-3293-7807-47BD-7464DEF34509</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

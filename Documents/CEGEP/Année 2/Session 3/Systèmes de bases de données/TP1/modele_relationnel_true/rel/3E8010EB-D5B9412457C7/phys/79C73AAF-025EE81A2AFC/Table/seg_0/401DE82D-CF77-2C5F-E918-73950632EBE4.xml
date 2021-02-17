@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="GARE" directorySegmentName="seg_0" id="401DE82D-CF77-2C5F-E918-73950632EBE4">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:23 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<schemaObject>2D8690CD-365B-4347-A4D9-FECC6E426E6C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C64038B3-61F5-BE35-E640-F0072A80113D</segment>
+<tableSpace>D6268498-DDD3-5F82-3D07-F7C421599119</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PAYS_ID_PAYS" id="0A171CC8-38EB-0116-E70B-4BAC965393B3">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROVINCE" id="995D1860-6238-9CDF-7230-F09540764342">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAYS" id="A421819D-667F-BA4A-54DA-5B03001C2451">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOM" id="E14D5938-EC2F-825C-B3A7-E63495E83C55">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_GARE" id="F1ADED98-350D-FCDB-F37E-5D609F178435">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="GARE_PK" id="E103E875-EBB7-8DC4-9B65-8CE7052B78BF">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:41 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<schemaObject>2D8690CD-365B-4347-A4D9-FECC6E426E6C</schemaObject>
+<segment>C4395840-0319-8E2A-DDEA-E708F447FAB3</segment>
+<tableSpace>D6268498-DDD3-5F82-3D07-F7C421599119</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="GARE_PAYS_FK" id="DBFAB96E-284A-AD6E-2F4A-E385F0FDD4A1">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:51 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GARE_PK" id="6F8A37C9-7519-FC94-439D-54A0B208DAF2">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:50 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<segment>C4395840-0319-8E2A-DDEA-E708F447FAB3</segment>
+<tableSpace>D6268498-DDD3-5F82-3D07-F7C421599119</tableSpace>
+<existingIndex>E103E875-EBB7-8DC4-9B65-8CE7052B78BF</existingIndex>
+<indexSegment>C4395840-0319-8E2A-DDEA-E708F447FAB3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

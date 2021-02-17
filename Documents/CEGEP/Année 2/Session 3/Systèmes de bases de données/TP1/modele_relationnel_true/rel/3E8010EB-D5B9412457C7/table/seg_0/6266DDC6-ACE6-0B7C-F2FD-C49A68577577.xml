@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6266DDC6-ACE6-0B7C-F2FD-C49A68577577" schemaObject="2D8690CD-365B-4347-A4D9-FECC6E426E6C" name="PAYS">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>PAYS</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:23 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PAYS" id="BA54701B-7C3B-3A47-9DCE-72E974ADBE65">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>PAYS</sourceObjSchema>
+<sourceObjName>ID_PAYS</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM" id="636FDAD5-D53C-17DC-BB32-8C2694C90701">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>PAYS</sourceObjSchema>
+<sourceObjName>NOM</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVINCE" id="ED4A1A52-DFAB-9B1D-1514-E5B3DA22EE52">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>PAYS</sourceObjSchema>
+<sourceObjName>PROVINCE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVINCE_ID_PROVINCE" id="5EA0E5A8-7912-356E-C377-85086AA430D7">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>PAYS</sourceObjSchema>
+<sourceObjName>PROVINCE_ID_PROVINCE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F55C28F9-8F4B-BE4B-76EE-2D34D6B6EDA5" referredColumn="944CFEB3-D077-B5AA-A488-6568508CAB92"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20DD89ED-EC76-98AC-1554-4EE3C8BFDE7C" name="PAYS_PK">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>PAYS_PK</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:50 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA54701B-7C3B-3A47-9DCE-72E974ADBE65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C95BA847-EBCB-F56D-7EF4-F729957F0F7D" schemaObject="2D8690CD-365B-4347-A4D9-FECC6E426E6C" name="PAYS__IDX">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>PAYS__IDX</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:41 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EA0E5A8-7912-356E-C377-85086AA430D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28C6EF49-989B-39DB-E4BF-9F942E94A39A" schemaObject="2D8690CD-365B-4347-A4D9-FECC6E426E6C" name="PAYS_PK">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>PAYS_PK</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:41 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA54701B-7C3B-3A47-9DCE-72E974ADBE65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7055515A-2687-8529-9236-0A403DE2499E" name="PAYS_PROVINCE_FK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:51 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EA0E5A8-7912-356E-C377-85086AA430D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

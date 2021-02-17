@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EMPLOYE" directorySegmentName="seg_0" id="AF53950C-9927-E267-13FB-CAF10B5F49C0">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:23 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<schemaObject>2D8690CD-365B-4347-A4D9-FECC6E426E6C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C64038B3-61F5-BE35-E640-F0072A80113D</segment>
+<tableSpace>D6268498-DDD3-5F82-3D07-F7C421599119</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRENOM" id="1B64687F-D4E4-47A4-1D04-38B93A67F43B">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOM" id="539C8158-8BB6-76C2-28C3-300559E3512B">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUT" id="C938072F-18F2-3A9E-858B-651383BB6478">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_EMPLOYE" id="D9C2619A-FD2A-10DE-030E-5BB13998AABC">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMPLOYE_PK" id="96D9C669-C6DC-CE67-2DD9-6BBF3F40E6B9">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:41 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<schemaObject>2D8690CD-365B-4347-A4D9-FECC6E426E6C</schemaObject>
+<segment>C4395840-0319-8E2A-DDEA-E708F447FAB3</segment>
+<tableSpace>D6268498-DDD3-5F82-3D07-F7C421599119</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMPLOYE_PK" id="65FEDD8A-A97E-9841-093C-437C7C23F7F8">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:50 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<segment>C4395840-0319-8E2A-DDEA-E708F447FAB3</segment>
+<tableSpace>D6268498-DDD3-5F82-3D07-F7C421599119</tableSpace>
+<existingIndex>96D9C669-C6DC-CE67-2DD9-6BBF3F40E6B9</existingIndex>
+<indexSegment>C4395840-0319-8E2A-DDEA-E708F447FAB3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

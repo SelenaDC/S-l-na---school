@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E1B1621-2931-CACF-E74D-770275F22B1D" name="employe">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>E821FBDD-92B7-8ECF-0CA2-9CF59CB4DE41</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_employe" id="8C2EBCA6-A6AE-464B-748D-A8AA74A5FE8C">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>1BC9FD63-5C23-9F51-DD59-F3F91E63BEDD</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="9034118D-D4C4-8380-9AD2-AB59EE0C0EFD">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>C5E19741-DC94-E154-F2C1-4B58F90F6A19</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prenom" id="D946C7D9-862D-EA6B-9D49-13A421FC7955">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>27389647-8382-0057-8568-6C05AF2D32DB</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="statut" id="C7F19517-4E9D-2C66-76CE-208895B0FE38">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>74A5BC07-A81E-5E9D-825F-247AD6BD9151</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDD36253-4FA3-5099-A34C-FB0F0308F828" name="employe_PK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>8198F165-7E87-908F-C628-38887B809165</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C2EBCA6-A6AE-464B-748D-A8AA74A5FE8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

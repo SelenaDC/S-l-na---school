@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="TRANSPORT_CN" directorySegmentName="seg_0" id="4B185497-844E-358B-9A42-98640CF54A44">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjName>TRANSPORT_CN</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:19 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<schemaObject>2D8690CD-365B-4347-A4D9-FECC6E426E6C</schemaObject>
+</UserOraclev10g>

@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1060DD97-7694-3275-74AE-CAA2FC1FEA2C" name="etape">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>6851A468-828B-F711-E857-02CD48F58C2F</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_etape" id="34479450-F9F8-B460-2E99-14B3155A968D">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>D0D87854-6669-B4D6-780B-10DE344D8986</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nb_etape" id="65463EF4-E00A-44B3-BAE4-8F26440C00E7">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>CC158F8A-5BA8-4962-8884-DD569DE4592A</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="escale" id="B8B0C864-FDCE-0784-8BD3-9CA524A2352B">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>23C7D1C6-7624-6BF4-4245-E85EF6C99A4C</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="94893DAE-A3C4-0C35-FB5C-4D674A8C5678">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>8193F5D6-76C9-13CB-E41A-54FFD37FEA21</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="heure" id="B468D6AC-6E8A-8B44-A572-FF88ED4C685F">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>429E4903-343F-6643-F59D-406BCE953690</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="origine" id="1075A1F5-A617-A50C-26E0-A971C4B9EB3B">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>B744532E-6ED9-D711-A846-9D6E6B8EF1C5</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="destination" id="1A6E7E27-E8CE-6959-DA13-5465F8B7C667">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>BC111AA5-46BC-496B-412D-D2DC7FFCB84F</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="voyage_id_voyage" id="5217EEB4-43AB-1DEF-1C80-9F24ADEFBA82">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>557A158C-30DC-A119-E51C-2D221A4C8BD7</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6F49C04-DE38-F331-C0B6-45F6095D78DA" referredColumn="38D2C6CA-7B9D-7003-F2AF-B773B750A46F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A07C0449-451F-A60F-A63C-2E45CCB35C88" name="etape_PK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>3577338A-F097-D1BD-6742-5828971AA0FE</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34479450-F9F8-B460-2E99-14B3155A968D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C617D013-4ADF-5E4A-79C7-0A6F8B394C83" name="etape_voyage_FK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>B21706D4-DBFF-4515-20B1-57A4A90B76D6</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5217EEB4-43AB-1DEF-1C80-9F24ADEFBA82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

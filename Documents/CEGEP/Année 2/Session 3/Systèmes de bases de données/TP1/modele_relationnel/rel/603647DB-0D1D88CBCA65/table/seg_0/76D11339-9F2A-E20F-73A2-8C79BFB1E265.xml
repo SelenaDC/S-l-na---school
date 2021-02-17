@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76D11339-9F2A-E20F-73A2-8C79BFB1E265" name="valise">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>C27585CA-5FA7-0B14-282D-FCD7CC4F62D4</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_valise" id="2227ED89-2986-507E-13EB-4B6A79797E62">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>C362BEC0-3463-22CD-7198-04EC20E52FDD</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="proprietaire" id="B5423F2D-7050-B098-977D-EBF888ED758A">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>0957F577-EFD4-CDE2-0EC6-50A91FB19F99</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poid" id="BA3B58B5-4400-3A6E-CEAC-15484743958D">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>A032DBC5-AAC3-BB98-5DE2-05D1BDF3B9A1</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valeur_declaree" id="1F04D4A1-F084-9050-EE30-1AF383A8AA47">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>F80265E0-8F97-41E1-3AAD-6773ABAD5D98</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gare_destination" id="1483B610-8FE1-EC30-F33D-86BCC68F9081">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>D22D989A-4259-4C89-C36B-564F120C7665</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="client_id_client" id="54AD7EE3-CD68-105C-D1BD-C7DB9A6C5496">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>497252D8-A2F6-24C5-12DE-369A6D615561</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAE1FFAE-1E75-64AB-0421-128D64381729" referredColumn="7ACC6D51-339B-346F-6A76-672C4A5DF985"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42B58BD1-5A9E-814F-632D-CF8D7DE8D1F8" name="valise_PK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>5983E101-32AA-424D-3548-08C17D9A5128</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2227ED89-2986-507E-13EB-4B6A79797E62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EE30960-31C5-91EF-6CFB-9760EC9869BA" name="valise_client_FK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>B3DAF8A5-5A0E-6A6B-489B-F19B22CFADAF</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54AD7EE3-CD68-105C-D1BD-C7DB9A6C5496"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

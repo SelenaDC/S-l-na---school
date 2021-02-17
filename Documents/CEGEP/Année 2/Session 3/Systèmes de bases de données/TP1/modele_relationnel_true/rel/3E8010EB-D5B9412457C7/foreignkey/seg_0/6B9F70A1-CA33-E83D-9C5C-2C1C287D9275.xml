@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6B9F70A1-CA33-E83D-9C5C-2C1C287D9275" containerWithKeyObject="B4364A0A-3DAD-8267-EBDD-0BF59C2E33A4" localFKIndex="F1D310C8-D4A2-8222-A80B-FFBFF3336AB5" name="CLIENT_VOYAGE_CLIENT_FK">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>CLIENT_VOYAGE_CLIENT_FK</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:51 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<referredTableLongName>TRANSPORT_CN.CLIENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>62DC31FA-086D-CC11-6680-DFBA5EC8EB06</referredTableID>
+<keyObject>1342D732-21E5-11D2-7D80-DEC7EF70FD00</keyObject>
+<referredKeyID>1342D732-21E5-11D2-7D80-DEC7EF70FD00</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CLIENT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

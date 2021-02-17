@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E9A4771E-E9BF-5A89-AF1D-EB0EEB029D75" containerWithKeyObject="ABC0A531-1460-1143-91EF-FB9EC5A43829" localFKIndex="8D739B1C-CE8B-D46E-F8B4-3E1443F72962" name="voyage_gare_FK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:48:35 UTC</createdTime>
+<generatorID>ADAB09C9-DDFF-73E8-A74F-1145FBB4DC37</generatorID>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<referredTableLongName>gare</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>92F0673C-E653-6DE0-E590-6F82CA8A9953</referredTableID>
+<keyObject>9C591D39-D21B-5375-3267-3BC2576506FC</keyObject>
+<referredKeyID>9C591D39-D21B-5375-3267-3BC2576506FC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_gare</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

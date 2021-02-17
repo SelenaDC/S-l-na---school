@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PROVINCE" directorySegmentName="seg_0" id="064C8ACC-9EF2-A5C7-F6EC-ABD2CE6906E9">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:23 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<schemaObject>2D8690CD-365B-4347-A4D9-FECC6E426E6C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A26CEA5B-40D5-0819-7833-9B5D6F7C0AAE</segment>
+<tableSpace>D6268498-DDD3-5F82-3D07-F7C421599119</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOM" id="0887C105-E936-7B55-1979-9D77A4EAC269">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PROVINCE" id="944CFEB3-D077-B5AA-A488-6568508CAB92">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAYS_ID_PAYS" id="BF837607-1642-C300-198B-E02D4F72433F">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<nncEnable>NO</nncEnable>
+<nncValidate>NO</nncValidate>
+</ColumnProxy>
+<ColumnProxy name="PAYS" id="E65D0BF9-35FE-ACB2-F30C-DA910F65785F">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:25 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PROVINCE__IDX" id="AD39F84D-5267-DE27-06FF-0E1BFEE6675D">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:41 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<schemaObject>2D8690CD-365B-4347-A4D9-FECC6E426E6C</schemaObject>
+<segment>54D5612B-D0BC-C1FE-9D92-C3D1ABABFBCA</segment>
+<tableSpace>D6268498-DDD3-5F82-3D07-F7C421599119</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PROVINCE_PK" id="EB055DC9-14B7-56CE-2987-54FF7BBB1C58">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:41 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<schemaObject>2D8690CD-365B-4347-A4D9-FECC6E426E6C</schemaObject>
+<segment>54D5612B-D0BC-C1FE-9D92-C3D1ABABFBCA</segment>
+<tableSpace>D6268498-DDD3-5F82-3D07-F7C421599119</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PROVINCE_PAYS_FK" id="51617501-9AFE-D030-857D-91F3E113E845">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:51 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<enable>NO</enable>
+<validate>NO</validate>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PROVINCE_PK" id="D7963952-16B0-3E22-2C06-CDA78265712D">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:50 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<segment>54D5612B-D0BC-C1FE-9D92-C3D1ABABFBCA</segment>
+<tableSpace>D6268498-DDD3-5F82-3D07-F7C421599119</tableSpace>
+<existingIndex>EB055DC9-14B7-56CE-2987-54FF7BBB1C58</existingIndex>
+<indexSegment>54D5612B-D0BC-C1FE-9D92-C3D1ABABFBCA</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

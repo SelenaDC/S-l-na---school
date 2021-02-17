@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E012FAD-B335-2B1D-2423-D5EA22097524" name="client">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:13:23 UTC</createdTime>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_client" id="BAEFABF0-C2A4-BA17-6F13-FA1C15C90573">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:13:33 UTC</createdTime>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="F967BB4A-F8C9-1444-39AC-FA9063E4E866">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:13:43 UTC</createdTime>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prenom" id="7126EF52-89A4-B792-DBD2-FDE2844097C1">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:14:00 UTC</createdTime>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_naissance" id="D55D5DEC-C73D-3D0F-3907-7067D3A5EFE4">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:14:13 UTC</createdTime>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_telephone" id="31E6CC61-6BD5-8809-1F4B-100504D59908">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:14:31 UTC</createdTime>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresse" id="8B421A78-BB1A-3ABC-5219-C9F5DC2E8C50">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:14:49 UTC</createdTime>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nb_valise" id="2A2AEDBF-566C-0029-814F-79A541F1445E">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:16:00 UTC</createdTime>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C681FE55-E4B5-D159-2E55-C983C3A29CF6" name="client PK">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-24 16:13:41 UTC</createdTime>
+<ownerDesignName>modele_relationnel</ownerDesignName>
+<engineerTo>
+<item key="603647DB-A333-21FC-A6C4-0D1D88CBCA65" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BAEFABF0-C2A4-BA17-6F13-FA1C15C90573</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="TRANSPORT_CN" directorySegmentName="seg_0" id="2D8690CD-365B-4347-A4D9-FECC6E426E6C">
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:21 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+</SchemaObject>

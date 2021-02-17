@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62DC31FA-086D-CC11-6680-DFBA5EC8EB06" schemaObject="2D8690CD-365B-4347-A4D9-FECC6E426E6C" name="CLIENT">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>CLIENT</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:21 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLIENT" id="8400D7E9-33E8-D6F4-3A64-2A13661464C6">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>CLIENT</sourceObjSchema>
+<sourceObjName>ID_CLIENT</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:24 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM" id="9F4F9E75-4A1C-E2BF-B1C2-3067C5544E27">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>CLIENT</sourceObjSchema>
+<sourceObjName>NOM</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:24 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRENOM" id="D4EF0D6B-25EC-0727-B690-7C88F98B09C5">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>CLIENT</sourceObjSchema>
+<sourceObjName>PRENOM</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:24 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_NAISSANCE" id="28E12F8F-12E9-E086-D6E1-AADC3BA34B95">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>CLIENT</sourceObjSchema>
+<sourceObjName>DATE_NAISSANCE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:24 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NO_TELEPHONE" id="A37267C2-A2EF-1B31-E719-AB432DC56AA2">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>CLIENT</sourceObjSchema>
+<sourceObjName>NO_TELEPHONE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:24 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADRESSE" id="22AEA771-ED80-9C22-1C04-34CBD321503A">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>CLIENT</sourceObjSchema>
+<sourceObjName>ADRESSE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:24 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NB_VALISE" id="D36B0688-9A5B-1C64-D88D-2170B14131DD">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>CLIENT</sourceObjSchema>
+<sourceObjName>NB_VALISE</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:24 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1342D732-21E5-11D2-7D80-DEC7EF70FD00" name="CLIENT_PK">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>CLIENT_PK</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:48 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8400D7E9-33E8-D6F4-3A64-2A13661464C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAF5CDA0-BAE3-F297-94F9-90635C62367E" schemaObject="2D8690CD-365B-4347-A4D9-FECC6E426E6C" name="CLIENT_PK">
+<sourceConnName>transport_CN@vm</sourceConnName>
+<sourceObjSchema>TRANSPORT_CN</sourceObjSchema>
+<sourceObjName>CLIENT_PK</sourceObjName>
+<createdBy>Séléna - school</createdBy>
+<createdTime>2020-10-30 15:47:33 UTC</createdTime>
+<ownerDesignName>modele_relationnel_true</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8400D7E9-33E8-D6F4-3A64-2A13661464C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
